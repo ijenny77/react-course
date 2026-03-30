@@ -25,21 +25,6 @@ This repository contains my practice projects and exercises while learning **Rea
 
 ---
 
-## 📂 Project Examples
-
-### 🚌 Bus Dashboard App
-
-* Displays a list of buses
-* Shows routes and availability
-* Uses components, props, and conditional rendering
-
-### 🎓 Student Score Dashboard
-
-* Displays student scores
-* Shows pass/fail status
-* Practices list rendering and component structure
-
----
 
 ## 🎯 Goals
 
@@ -67,11 +52,6 @@ http://localhost:5173
 
 ---
 
-## 📌 Notes
-
-This repository is part of my learning journey. More projects and concepts will be added as I continue learning React.
-
----
 
 ## 💡 Future Plans
 
