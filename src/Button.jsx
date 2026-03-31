@@ -7,6 +7,7 @@ function Button(){
         border: "none",
         cursor: "pointer",
         fontFamily: "Arial, Helvetica, sans-serif",
+        marginLeft:"43rem",
     }
     return(
         <button style={styles}>Click Meee</button>
