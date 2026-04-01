@@ -106,4 +106,24 @@ h1 {
   border-radius: 5px;
   margin: 0;
 }
-
+.list-category{
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  border:3px solid rgba(144, 4, 231, 0.763);
+  border-radius: 5px;
+  background-color: rgba(144, 4, 231, 0.763);
+}
+.list-items{
+  font-size: 1.2rem;
+  list-style: none;
+  color: rgb(255, 253, 255);
+  text-align: center;
+  margin-bottom:2rem;
+}
+.list-items:hover{
+  color: grey;
+  cursor: pointer;
+}
