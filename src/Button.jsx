@@ -9,8 +9,18 @@ function Button(){
         fontFamily: "Arial, Helvetica, sans-serif",
         marginLeft:"43rem",
     }
+    let count = 0;
+    const handleClick = (name) => {
+        if (count < 3){
+            count++;
+            console.log(`${name} you clicked me ${count} times`)
+        }else{
+            console.log(`${name} stop clicking me!`)
+        }
+    };
+    const handleClick2 = (e) => e.target.textContent = "OUCH! 🤕";
     return(
-        <button style={styles}>Click Meee</button>
+        <button onDoubleClick={(e) => handleClick2(e)} style={styles}>Click Meee</button>
     );
 }
 export default Button
