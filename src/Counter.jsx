@@ -3,10 +3,12 @@ function Counter(){
     const [count,setCount] = useState(0) 
 
     const incrementNum = () => {
-        setCount(count + 1)
+        setCount(c => c + 1)
+        setCount(c => c + 1)
+        setCount(c => c + 1)
     }
     const decrementNum = () => {
-        setCount(count - 1)
+        setCount(c =>c - 1)
     }
     const reset = () => {
         setCount(0)
