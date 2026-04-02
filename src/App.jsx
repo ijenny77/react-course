@@ -8,6 +8,7 @@ import List from './List.jsx'
 import MyComponent from './Mycomponent.jsx'
 import Counter from './Counter.jsx'
 import Component from './Component.jsx'
+import ColorPicker from './ColorPicker.jsx'
 function App(){
     const fruits = [
         {id:1 , name: 'Apple', calories: 95},
@@ -41,6 +42,7 @@ function App(){
             <MyComponent/>
             <Counter/>
             <Component/>
+            <ColorPicker/>
             <Footer/> 
         </>
     );
