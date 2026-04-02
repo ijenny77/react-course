@@ -10,6 +10,7 @@ import Counter from './Counter.jsx'
 import Component from './Component.jsx'
 import ColorPicker from './ColorPicker.jsx'
 import Components from './Components.jsx'
+import UpdateList from './UpdateList.jsx'
 function App(){
     const fruits = [
         {id:1 , name: 'Apple', calories: 95},
@@ -45,6 +46,7 @@ function App(){
             <Component/>
             <ColorPicker/>
             <Components/>
+            <UpdateList/>
             <Footer/> 
         </>
     );
