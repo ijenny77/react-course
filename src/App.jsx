@@ -7,6 +7,7 @@ import UserGreeting from './UserGreeting.jsx'
 import List from './List.jsx'
 import MyComponent from './Mycomponent.jsx'
 import Counter from './Counter.jsx'
+import Component from './Component.jsx'
 function App(){
     const fruits = [
         {id:1 , name: 'Apple', calories: 95},
@@ -39,6 +40,7 @@ function App(){
             <Button/>
             <MyComponent/>
             <Counter/>
+            <Component/>
             <Footer/> 
         </>
     );
