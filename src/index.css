@@ -127,3 +127,27 @@ h1 {
   color: grey;
   cursor: pointer;
 }
+.counter-container{
+  text-align: center;
+  font-family: Arial 'Courier New', Courier, monospace;
+}
+.counter-display{
+  font-size:2rem;
+  margin-top: 0;
+  margin-bottom: 5rem;
+}
+.counter-button{
+  width: 20%;
+  height: 5vh;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin:0 2rem;
+  background-color: rgb(45, 177, 229);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.counter-button:hover {
+  background-color: rgb(53, 107, 128);
+} 

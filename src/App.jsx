@@ -5,6 +5,8 @@ import Card from './Card.jsx'
 import Button from './Button.jsx'
 import UserGreeting from './UserGreeting.jsx'
 import List from './List.jsx'
+import MyComponent from './Mycomponent.jsx'
+import Counter from './Counter.jsx'
 function App(){
     const fruits = [
         {id:1 , name: 'Apple', calories: 95},
@@ -35,6 +37,8 @@ function App(){
             {fruits.length > 0 && <List items={fruits} category ="Fruits"/>}
             {vegetables.length > 0 && <List items={vegetables} category="Vegetables"/>}
             <Button/>
+            <MyComponent/>
+            <Counter/>
             <Footer/> 
         </>
     );
