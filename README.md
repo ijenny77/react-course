@@ -32,6 +32,7 @@ This repository contains my practice projects and exercises while learning **Rea
 * Build reusable components
 * Practice writing clean and structured code
 * Prepare for more advanced topics like state and events
+* Work on more react projects
 
 ---
 
