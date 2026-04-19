@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import menu_icon_dark from '../assets/menu_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg'
 import menu_icon_light from '../assets/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg'
 import dark_logo from '../assets/image-removebg-preview (1).png'
-import light_logo from '../assets/image copy.png'
+import light_logo from '../assets/image_copy-removebg-preview.png'
 import cross from '../assets/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg'
 import arrow from '../assets/arrow_forward_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg'
 import ThemeToggleBtn from "./ThemeToggleBtn";
