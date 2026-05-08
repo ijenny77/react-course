@@ -2,6 +2,8 @@
 :root{
     --white:#FFFFFF;
     --green:#C8F53A;
+    --grey:#f5f5f040;
+    --gray:#f5f5f096;
     --ff-hero: 'Unbounded', sans-serif; /* main hero headline and the CTA big text*/
     --ff-cond: 'Barlow Condensed', sans-serif; /*section titles, program names, pricing, nav labels*/
     --ff-body: 'Barlow', sans-serif; /*body text, descriptions, and paragraphs.*/

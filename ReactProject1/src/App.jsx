@@ -14,7 +14,7 @@ const App = () => {
   return (
     <div>
       <Navbar/>
-      <CtaBanner/>
+      <Hero/>
     </div>
   )
 }

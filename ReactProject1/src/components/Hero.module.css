@@ -1,0 +1,51 @@
+.paragraph{
+    font-size:1rem;
+    color:var(--gray);
+    font-weight:100;
+    font-family:var(--ff-body);
+    margin-right: 1rem;
+}
+.mainDivHero{
+    margin-left:3rem;
+    display: flex;
+    gap: 0.05rem;
+}
+.heroBoxes{
+    border:1px solid var(--grey);
+    width: fit-content;
+    padding: 0rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #181A13;
+}
+.heroNumbers{
+    color: var(--green);
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 0;
+    font-family: var(--ff-cond);
+}
+.heroWords{
+    color:var(--gray);
+    font-size:0.8rem;
+    font-family: var(--ff-body);
+}
+.seePrograms{
+    color:var(--gray);
+    margin-left: 1rem;
+    font-family: var(--ff-cond);
+    font-weight: 600;
+}
+.startFree{
+    background-color: var(--green);
+    font-family: var(--ff-cond);
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border: none;
+    margin-left: 3rem;
+
+}
+.buttons{
+    margin-top: 3.7rem;
+    
+}
