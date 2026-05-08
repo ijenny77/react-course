@@ -1,0 +1,15 @@
+.ctaText{
+    font-family: var(--ff-hero);
+    font-size: 8rem;
+    margin-left: 3rem;
+    color:var(--white);
+    display: flex;
+    flex-direction: column;
+}
+.live{
+    color: var(--green);
+}
+.harder{
+    -webkit-text-stroke: 1.5px rgba(245,245,240,0.25);
+    color: transparent;
+}
